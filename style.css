@@ -1,0 +1,65 @@
+button {
+	all: unset;
+}
+body {
+	background-color: #32393f;
+}
+.container-for-button {
+	padding: 10px;
+	display: flex;
+	position: sticky;
+	top: 0px;
+	background-color: #32393f;
+}
+
+.btn-block {
+	display: flex;
+}
+
+.btn-block:not(:last-child) {
+	margin-right: 15px;
+}
+
+.btn {
+	display: block;
+	background-color: #fff;
+	height: 25px;
+	width: 50px;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+}
+.btn:active {
+	background-color: #ddeeff;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+:not(:last-child) {
+	margin-right: 5px;
+}
+.counter {
+	background-color: #fff;
+	height: 25px;
+	width: 20px;
+	font-size: 15px;
+	text-align: center;
+}
+
+/* cards */
+.cards-block {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.card:not(:last-child) {
+	margin-right: 30px;
+}
+.card {
+	margin-bottom: 30px;
+	background-color: #fff;
+	padding: 5px 20px;
+	height: 200px;
+	width: 300px;
+}
